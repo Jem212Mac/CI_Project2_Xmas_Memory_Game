@@ -1,6 +1,4 @@
 # Xmas Memory Game - TESTING
-
-
 ---
 
 ## CONTENTS
@@ -25,37 +23,26 @@
 
 ## AUTOMATED TESTING
 
-
 ###  W3C Validator
-
 
 #### **URI Input**
 
-
 #### **Direct Input**
-
 
 #### **CSS Validation**
 
-
 ### Lighthouse
 
-
 ### WAVE
-
 
 ## MANUAL TESTING
 
 ### Testing User Stories
 
-
 ### Full Testing
-
 
 ## BUGS
 
 ### Known Bugs
 
-
 ### Solved Bugs
-
