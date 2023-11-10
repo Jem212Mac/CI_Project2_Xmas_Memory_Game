@@ -1,14 +1,10 @@
 # Xmas Memory Game
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
-
-Add a Blurb about the site here, what does it do, why did you build it?
+This is a xmas themed memory game created using html, css and javascript to demonstrate my coding skills for my PP2 project with Code Institute.  The purpose of the game is to test the player's memory and also to appeal to anyone who wants to get into the xmas spirit via the use of a xmas colour pallette and xmas themed images on the memory cards.
 
 Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
 
 Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
-
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
 ---
 
