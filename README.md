@@ -1,6 +1,8 @@
 # Xmas Memory Game
 
-This is a xmas themed memory game created using html, css and javascript to demonstrate my coding skills for my PP2 project with Code Institute.  The purpose of the game is to test the player's memory and also to appeal to anyone who wants to get into the xmas spirit via the use of a xmas colour pallette and xmas themed images on the memory cards.
+This is a xmas themed memory game created using html, css, and javascript.
+
+The purpose of the game is to test the player's memory while appealling to any player that wants to get into the xmas spirit since the game is designed with a xmas colour palette and xmas themed imagery.
 
 ---
 
@@ -38,74 +40,50 @@ This is a xmas themed memory game created using html, css and javascript to demo
 
 ## User Experience (UX)
 
-
 ### User Stories
-
 
 ## Design
 
-
 ### Colour Scheme
-
 
 ### Typography
 
-
 ### Imagery
-
 
 ### Wireframes
 
-
 ## Features
-
 
 ### General features on each page
 
-
 ### Future Implementations
-
 
 ### Accessibility
 
-
 ## Technologies Used
-
 
 ### Languages Used
 
-
 ### Frameworks, Libraries & Programs Used
-
 
 ## Deployment & Local Development
 
 ### Deployment
 
-
 ### Local Development
-
 
 #### How to Fork
 
-
 #### How to Clone
-
 
 ## Testing
 
-
 ## Credits
-
 
 ### Code Used
 
-
 ### Content
 
-
 ###  Media
-
   
 ###  Acknowledgments
-
