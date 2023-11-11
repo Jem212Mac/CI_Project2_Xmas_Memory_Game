@@ -26,6 +26,8 @@ body {
     background-color: rgb(51, 65, 27);
 }
 
-h1 {
+.heading {
     font-family: 'Mountains of Christmas', serif;
+    text-align: center;
+    font-size: 1.5rem;
 }
