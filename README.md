@@ -2,7 +2,7 @@
 
 This is a xmas themed memory game created using html, css, and javascript.
 
-The purpose of the game is to test the player's memory while appealling to any player that wants to get into the xmas spirit since the game is designed with a xmas colour palette and xmas themed imagery.
+The purpose of the game is to test the player's memory while appealling to kids or any adult players that want to get into the xmas spirit; the game is designed with a xmas colour palette and xmas themed imagery.
 
 ---
 
@@ -46,9 +46,13 @@ The purpose of the game is to test the player's memory while appealling to any p
 
 ### Colour Scheme
 
+The colour scheme includes traditional xmas colours including green, red, black, white, silver and gold.
+
 ### Typography
 
 ### Imagery
+
+Xmas imagery is used throughout the site, with a decorated xmas tree background image and xmas themed clipart that might appeal to children used on the memory cards.  Xmas themed images include santa claus, a snowman, a xmas tree, rudolph the red-nosed reindeer, an elf, a gingerbread man, santa's sleigh, and a xmas stocking filled with gifts.
 
 ### Wireframes
 
@@ -79,6 +83,14 @@ The purpose of the game is to test the player's memory while appealling to any p
 ## Testing
 
 ## Credits
+
+Templates for the readme.md and testing.md were based on ones created by Kera Cudmore at https://github.com/kera-cudmore/readme-examples.
+
+The decorated xmas tree background was taken from https://www.pexels.com/.
+
+The xmas clip art images for the memory cards were taken from <https://northpolechristmas.com/Christmas-clipart.html>.
+
+Images were converted to webp format using https://convertio.co/.
 
 ### Code Used
 
