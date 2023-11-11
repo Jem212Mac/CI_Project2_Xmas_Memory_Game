@@ -13,6 +13,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+#background {
+    height: 600px;
+    width: 100%;
+    background: url("../images/xmas_background.webp") no-repeat center center/cover;
+}
+
 h1 {
     font-family: 'Mountains of Christmas', serif;
 }
