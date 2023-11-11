@@ -1,0 +1,18 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Open+Sans:wght@300&display=swap');
+
+/* General Styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Mountains of Christmas', serif;
+}
