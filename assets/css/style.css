@@ -51,7 +51,7 @@ p {
 .card-area {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
     row-gap: 20px;
 }
 
@@ -59,7 +59,7 @@ p {
     height: calc(100px / 2*3);
     width: 100px;
     border-radius: 10px;
-    background-color: rgb(179, 222, 128);
+    background-color: rgb(255, 255, 255);
     position: relative
     transform-style: preserve-3d;
     transition: all 0.5s ease-in-out;
@@ -71,15 +71,25 @@ p {
 
 }
 
-.card-front {
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card .front {
     display: flex;
     justify-content: center;
     align-items: center;
     transform: rotateY(180deg);
 }
 
-.card-back {
-    background-image: url("../images/gold_spakles.webp") no-repeat center center/cover;
+.card .back {
+    background-image: url("../images/silver.webp") no-repeat center center/cover;
     background-position: center center;
     background-size: cover;
     backface-visibility: hidden;
