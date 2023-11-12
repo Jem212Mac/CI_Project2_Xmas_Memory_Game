@@ -49,21 +49,26 @@ p {
 }
 
 .card-area {
-    display: grid;
-    justify-content: center;
-    grid-gap: 16px;
-    grid-template-columns: repeat(4, 90px);
-    grid-template-rows: repeat(3, calc(90px / 2 * 3));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
 }
 
 .card {
-    height: calc(90px / 2*3);
-    width: 90px;
+    height: calc(100px / 2*3);
+    width: 100px;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: rgb(179, 222, 128);
     position: relative
     transform-style: preserve-3d;
     transition: all 0.5s ease-in-out;
+}
+
+.front-image {
+    height: 60px;
+    width: 60px;
+
 }
 
 .card-front {
