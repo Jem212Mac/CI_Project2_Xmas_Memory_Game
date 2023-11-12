@@ -55,3 +55,27 @@ p {
     grid-template-columns: repeat(4, 90px);
     grid-template-rows: repeat(3, calc(90px / 2 * 3));
 }
+
+.card {
+    height: calc(90px / 2*3);
+    width: 90px;
+    border-radius: 10px;
+    background-color: aqua;
+    position: relative
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.card-back {
+    background-image: url("../images/gold_spakles.webp") no-repeat center center/cover;
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+}
