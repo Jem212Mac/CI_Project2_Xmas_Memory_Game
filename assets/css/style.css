@@ -10,17 +10,19 @@ body {
     color: rgb(0, 0, 0);
 }
 
-h1 {
-    font-family: 'Mountains of Christmas', serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 2rem;
-}
-
 p {
     text-align: center;
     font-size: 15px;
     font-weight: bold;
+}
+
+.heading {
+    font-family: 'Mountains of Christmas', serif;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(27, 80, 3);
+    color: rgb(255, 255, 255);
 }
 
 .game-area {
