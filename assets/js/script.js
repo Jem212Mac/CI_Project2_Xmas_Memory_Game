@@ -25,21 +25,20 @@ cards = [
     { name: "tree", image: "xmas_tree.webp" },
 ];
 
-shuffleCards();
-createCards();
-
 function shuffleCards() {
-    let currentIndex = cards.length,
-        randomIndex,
-        tempValue;
-    while (currentIndex !== 0) {
+    let currentIndex = cards.length, randomIndex;
+    while (currentIndex > 0) {
         randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-        tempValue = cards[currentIndex];
-        cards[currentIndex] = cards[randomIndex];
-        cards[randomIndex] = tempValue;
+        currentIndex--;
+        [cards[currentIndex], cards[randomIndex]] =
+        [cards[randomIndex], cards[currentIndex]];
     }
+
+    return cards;
 }
+
+shuffleCards();
+console.log(cards);
 
 function createCards() {
     for (let card of cards) {
@@ -56,6 +55,8 @@ function createCards() {
         cardElement.addEventListener("click", turnCard);
     }
 }
+
+createCards();
 
 function turnCard() {
     if (lockGame) return;
