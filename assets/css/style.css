@@ -52,6 +52,6 @@ p {
     display: grid;
     justify-content: center;
     grid-gap: 16px;
-    grid-template-columns: repeat(4, 140px);
-    grid-template-rows: repeat(3, calc(140px / 2 * 3));
+    grid-template-columns: repeat(4, 90px);
+    grid-template-rows: repeat(3, calc(90px / 2 * 3));
 }
