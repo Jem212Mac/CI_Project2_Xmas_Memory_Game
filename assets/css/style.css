@@ -29,3 +29,16 @@ p {
     margin: auto;
     background-color: rgb(255, 255, 255);
 }
+
+.button-click {
+    display: flex;
+    justify-content: center;
+}
+
+.button-click button {
+    padding: 8px 16px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(27, 80, 3);
+    color: rgb(255, 255, 255);
+}
