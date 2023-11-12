@@ -30,8 +30,8 @@ createCards();
 
 function shuffleCards() {
     let currentIndex = cards.length,
-    randomIndex,
-    tempValue;
+        randomIndex,
+        tempValue;
     while (currentIndex !== 0) {
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
@@ -52,17 +52,17 @@ function createCards() {
             </div>
             <div class="back"></div>
             `;
-            cardArea.appendChild(cardElement);
-            cardElement.addEventListener("click", turnCard);
+        cardArea.appendChild(cardElement);
+        cardElement.addEventListener("click", turnCard);
     }
 }
 
-function turnCard () {
-    if(lockGame) return;
+function turnCard() {
+    if (lockGame) return;
     if (this === firstCard) return;
 
     this.classList.add("turned");
-    if(!firstCard) {
+    if (!firstCard) {
         firstCard = this;
         return;
     }
