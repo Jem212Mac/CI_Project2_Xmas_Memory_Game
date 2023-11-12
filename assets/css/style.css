@@ -18,7 +18,7 @@ p {
 
 .heading {
     font-family: 'Mountains of Christmas', serif;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     border-radius: 10px;
     background-color: rgb(27, 80, 3);
@@ -43,7 +43,7 @@ p {
 
 .button-click button {
     padding: 8px 16px;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 20px;
     background-color: rgb(27, 80, 3);
     color: rgb(255, 255, 255);
