@@ -101,3 +101,7 @@ p {
     background-size: cover;
     backface-visibility: hidden;
 }
+
+.elf {
+    background-image: url("../images/elf.webp");
+}
