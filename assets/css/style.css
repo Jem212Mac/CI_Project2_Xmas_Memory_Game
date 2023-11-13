@@ -51,13 +51,15 @@ p {
 .card-area {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     row-gap: 20px;
+    column-gap: 5px;
 }
 
 .card {
-    height: calc(100px/2*3);
-    width: 100px;
+    height: calc(70px / 2 * 3);
+    width: 70px;
+    flex-basis: 20%;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     position: relative;
