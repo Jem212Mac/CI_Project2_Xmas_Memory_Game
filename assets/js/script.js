@@ -25,7 +25,8 @@ cards = [
     { name: "tree", image: "../images/xmas_tree.webp" },
 ];
 
-console.log(cards);
+shuffleCards();
+createCards();
 
 function shuffleCards() {
     let currentIndex = cards.length, randomIndex;
@@ -38,9 +39,6 @@ function shuffleCards() {
 
     return cards;
 }
-
-/* shuffleCards();
-console.log(cards); */
 
 function createCards() {
     for (let card of cards) {
@@ -58,12 +56,9 @@ function createCards() {
     }
 }
 
-createCards();
-
 function turnCard() {
     if (lockGame) return;
     if (this === firstCard) return;
-
     this.classList.add("turned");
     if (!firstCard) {
         firstCard = this;
