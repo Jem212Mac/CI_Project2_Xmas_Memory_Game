@@ -1,11 +1,12 @@
 const cardArea = document.querySelector(".card-area");
+let cards = [];
 let firstCard, secondCard;
 let lockGame = false;
 let score = 0;
 
 document.querySelector(".score").textContent = score;
 
-let cards = [
+cards = [
     { name: "elf", image: "../images/elf.webp" },
     { name: "gingerbread", image: "../images/gingerbread_man.webp" },
     { name: "rudolph", image: "../images/rudolph.webp" },
@@ -26,7 +27,7 @@ let cards = [
 
 console.log(cards);
 
-/* function shuffleCards() {
+function shuffleCards() {
     let currentIndex = cards.length, randomIndex;
     while (currentIndex > 0) {
         randomIndex = Math.floor(Math.random() * currentIndex);
@@ -38,7 +39,7 @@ console.log(cards);
     return cards;
 }
 
-shuffleCards();
+/* shuffleCards();
 console.log(cards); */
 
 function createCards() {
