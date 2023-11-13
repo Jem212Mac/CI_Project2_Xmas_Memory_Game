@@ -24,9 +24,9 @@ let cards = [
     { name: "tree", image: "../images/xmas_tree.webp" },
 ];
 
-/* console.log(cards); */
+console.log(cards);
 
-function shuffleCards() {
+/* function shuffleCards() {
     let currentIndex = cards.length, randomIndex;
     while (currentIndex > 0) {
         randomIndex = Math.floor(Math.random() * currentIndex);
@@ -39,7 +39,7 @@ function shuffleCards() {
 }
 
 shuffleCards();
-console.log(cards);
+console.log(cards); */
 
 function createCards() {
     for (let card of cards) {

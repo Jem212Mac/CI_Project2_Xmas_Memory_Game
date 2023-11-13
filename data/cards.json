@@ -1,0 +1,34 @@
+[
+    {
+        "image": "../assets/elf.webp",
+        "name": "elf"
+    },
+    {
+        "image": "../assets/gingerbread_man.webp",
+        "name": "gingerbread"
+    },
+    {
+        "image": "../assets/rudolph.webp",
+        "name": "rudolph"
+    },
+    {
+        "image": "../assets/santa_claus.webp",
+        "name": "santa"
+    },
+    {
+        "image": "../assets/santas_sleigh.webp",
+        "name": "sleigh"
+    },
+    {
+        "image": "../assets/snowman.webp",
+        "name": "snowman"
+    },
+    {
+        "image": "../assets/xmas_stocking.webp",
+        "name": "stocking"
+    },
+    {
+        "image": "../assets/xmas_tree.webp",
+        "name": "tree"
+    }
+]
