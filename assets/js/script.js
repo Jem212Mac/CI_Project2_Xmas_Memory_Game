@@ -1,12 +1,11 @@
 const cardArea = document.querySelector(".card-area");
-let cards = [];
 let firstCard, secondCard;
 let lockGame = false;
 let score = 0;
 
 document.querySelector(".score").textContent = score;
 
-cards = [
+let cards = [
     { name: "elf", image: "../images/elf.webp" },
     { name: "gingerbread", image: "../images/gingerbread_man.webp" },
     { name: "rudolph", image: "../images/rudolph.webp" },
@@ -24,6 +23,8 @@ cards = [
     { name: "stocking", image: "../images/xmas_stocking.webp" },
     { name: "tree", image: "../images/xmas_tree.webp" },
 ];
+
+/* console.log(cards); */
 
 function shuffleCards() {
     let currentIndex = cards.length, randomIndex;
@@ -84,4 +85,29 @@ function checkForMatch() {
 function disableCards() {
     firstCard.removeEventListener("click", turnCard);
     secondCard.removeEventListener("click", turnCard);
+
+    resetGame();
+}
+
+function turnBackCards() {
+    setTimeout(() => {
+        firstCard.classList.remove("turned");
+        secondCard.classList.remove("turned");
+        resetGame();
+    }, 1000);
+}
+
+function resetGame() {
+    firstCard = null;
+    secondCard = null;
+    lockGame = false;
+}
+
+function restart() {
+    resetGame();
+    shuffleCards();
+    score = 0;
+    document.querySelector(".score").textContent = score;
+    cardArea.innerHTML = "";
+    createCards();
 }
