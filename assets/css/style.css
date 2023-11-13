@@ -94,7 +94,7 @@ p {
 }
 
 .card .back {
-    background-image: url("../images/silver.webp");
+    background-image: url("../images/candy-cane.webp");
     background-position: center center;
     background-size: cover;
     backface-visibility: hidden;
