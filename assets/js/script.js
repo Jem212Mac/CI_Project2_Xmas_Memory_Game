@@ -7,7 +7,7 @@ let score = 0;
 document.querySelector(".score").textContent = score;
 
 cards = [
-    { name: "elf", image: "../assets/images/elf.webp" },
+    { name: "elf", image: "/assets/images/elf.webp" },
     { name: "gingerbread", image: "../assets/images/gingerbread_man.webp" },
     { name: "rudolph", image: "../assets/images/rudolph.webp" },
     { name: "santa", image: "../assets/images/santa_claus.webp" },
@@ -15,7 +15,7 @@ cards = [
     { name: "snowman", image: "../assets/images/snowman.webp" },
     { name: "stocking", image: "../assets/images/xmas_stocking.webp" },
     { name: "tree", image: "../assets/images/xmas_tree.webp" },
-    { name: "elf", image: "../assets/images/elf.webp" },
+    { name: "elf", image: "/assets/images/elf.webp" },
     { name: "gingerbread", image: "../assets/images/gingerbread_man.webp" },
     { name: "rudolph", image: "../assets/images/rudolph.webp" },
     { name: "santa", image: "../assets/images/santa_claus.webp" },
