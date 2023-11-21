@@ -78,7 +78,6 @@ p {
 .back {
     backface-visibility: hidden;
     position: absolute;
-    border-radius: 10px;
     top: 0;
     left: 0;
     height: 100%;
