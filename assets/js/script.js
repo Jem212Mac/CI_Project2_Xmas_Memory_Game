@@ -5,6 +5,10 @@ let firstCard, secondCard;
 let lockGame = false;
 let score = 0;
 
+var modal = document.getElementById("playModal");
+
+var span = document.getElementsByClassName("close")[0];
+
 document.querySelector(".score").textContent = score;
 
 cards = [
@@ -127,3 +131,13 @@ radioBtns.forEach(radioBtn => {
     radioBtn.addEventListener('change', findSelected);
 });
 findSelected();
+
+span.onclick = function () {
+    modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+};

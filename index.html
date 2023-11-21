@@ -23,22 +23,28 @@
       />
     </header>
     <main>
+      <div id="playModal" class="modal"></div>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p></p>
+      </div>
       <div class="card-area"></div>
       <div class="score-area">
         <p>Moves: <span class="score"></span></p>
       </div>
       <div class="backg">
         <p>Change Background:</p>
-        <input type="radio" id="3d-trees" name="background" value="trees" checked/>
+        <input
+          type="radio"
+          id="3d-trees"
+          name="background"
+          value="trees"
+          checked
+        />
         <label for="3d-trees">Winter Scene</label>
         <input type="radio" id="blue-trees" name="background" value="blue" />
         <label for="blue-trees">Blue Trees</label>
-        <input
-          type="radio"
-          id="baubles"
-          name="background"
-          value="baubles"
-        />
+        <input type="radio" id="baubles" name="background" value="baubles" />
         <label for="baubles">Baubles</label>
       </div>
       <div class="button-click">
