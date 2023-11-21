@@ -91,7 +91,7 @@ p {
 }
 
 .card .back {
-    background-image: url("../images/stars.jpg");
+    background-image: url("../images/card-back.jpg");
     background-position: center center;
     background-size: cover;
     backface-visibility: hidden;
