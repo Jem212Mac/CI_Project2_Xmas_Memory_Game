@@ -53,12 +53,12 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 20px;
-    column-gap: 5px;
+    column-gap: 20px;
 }
 
 .card {
-    height: calc(70px / 2 * 3);
-    width: 70px;
+    height: 100px;
+    width: 100px;
     flex-basis: 20%;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
@@ -95,7 +95,7 @@ p {
 }
 
 .card .back {
-    background-image: url("../images/candy.webp");
+    background-image: url("../images/stars.jpg");
     background-position: center center;
     background-size: cover;
     backface-visibility: hidden;
