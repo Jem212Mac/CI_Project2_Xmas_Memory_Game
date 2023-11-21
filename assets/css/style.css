@@ -63,7 +63,7 @@ p {
 
 .front-image {
     height: 100%;
-    width: 80%;
+    width: 100%;
 }
 
 .card.turned {
@@ -93,9 +93,4 @@ p {
     background-position: center center;
     background-size: cover;
     backface-visibility: hidden;
-}
-
-.footer {
-    min-height: 20%;
-    width: 100%;
 }
