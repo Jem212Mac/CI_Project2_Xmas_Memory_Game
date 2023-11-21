@@ -33,7 +33,7 @@ p {
 
 .button-click {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .button-click button {
