@@ -1,4 +1,5 @@
 const cardArea = document.querySelector(".card-area");
+var body = document.getElementsByTagName('body')[0];
 let cards = [];
 let firstCard, secondCard;
 let lockGame = false;
@@ -115,3 +116,14 @@ function restart() {
     cardArea.innerHTML = "";
     createCards();
 }
+
+let radioBtns = document.querySelectorAll('input[name="background"]');
+
+function findSelected() {
+    let selected = document.querySelector('input[name="background"]:checked').value;
+    document.body.classList = [`${selected}`];
+}
+radioBtns.forEach(radioBtn => {
+    radioBtn.addEventListener('change', findSelected);
+});
+findSelected();

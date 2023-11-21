@@ -31,6 +31,10 @@ p {
     color: rgb(255, 255, 255);
 }
 
+.backg {
+
+}
+
 .button-click {
     display: flex;
     justify-content: space-evenly;
@@ -96,4 +100,16 @@ p {
     background-position: center center;
     background-size: cover;
     backface-visibility: hidden;
+}
+
+.trees {
+    background-image: url("../images/3d-trees.jpg");
+}
+
+.blue {
+    background-image: url("../images/blue_background.jpg");
+}
+
+.baubles {
+    background-image: url("../images/red-baubles.jpg");
 }
