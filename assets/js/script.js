@@ -4,6 +4,7 @@ let cards = [];
 let firstCard, secondCard;
 let lockGame = false;
 let score = 0;
+let matchCounter = 0;
 
 document.querySelector(".score").textContent = score;
 
@@ -90,7 +91,10 @@ function checkForMatch() {
 function disableCards() {
     firstCard.removeEventListener("click", turnCard);
     secondCard.removeEventListener("click", turnCard);
-
+    matchCounter++;
+    if (matchCounter === 12) {
+       modal_celebration.classList.add('show');
+    }
     resetGame();
 }
 
@@ -112,6 +116,7 @@ function restart() {
     resetGame();
     shuffleCards();
     score = 0;
+    matchCounter = 0;
     document.querySelector(".score").textContent = score;
     cardArea.innerHTML = "";
     createCards();
@@ -134,4 +139,8 @@ function openModal() {
 
 function closeModal() {
     modal_container.classList.remove('show');
+}
+
+function closeCelebration() {
+    modal_celebration.classList.remove('show');
 }

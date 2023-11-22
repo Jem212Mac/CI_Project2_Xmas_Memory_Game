@@ -178,6 +178,27 @@ button {
     opacity: 1;
 }
 
+/* Styles for the Game Rules (How to Play) Modal */
+.modal-celebration {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+}
+
+.modal-celebration.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
 .modal {
     background-color: rgb(249, 199, 199);
     border-radius: 5px;
