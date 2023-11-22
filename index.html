@@ -35,14 +35,14 @@
                 <input type="radio" id="baubles" name="background" value="baubles" />
                 <label for="baubles">Baubles</label>
             </div>
-            <!--Button to view modal with game rules-->
-            <button id="rules_button">
-                Game Rules
-            </button>
+            <!--Button to open modal with game rules-->
+            <div id="open">
+                <button onclick="openModal()">Game Rules</button>
+            </div>
             <div class="modal-container" id="modal_container">
             <!--Modal with Game Rules-->
                 <div class="modal">
-                    <h1>Rules of the Game</h1>
+                    <h1>How to Play</h1>
                     <p>The aim of the game is to match all pairs of card images.  
                         Click on a card to turn it over and display the card image.  
                         Click on a second card to display that card's image.  
@@ -54,9 +54,9 @@
                         Your score will be dependent on the number of moves you made to win.
                     </p>
                     <!--Button to close modal-->
-                    <button id="close">
-                        Close
-                    </button>
+                    <div id="close">
+                        <button onclick="closeModal()">Close</button>
+                    </div>
                 </div>
             </div>
             <!--Button to Restart Game-->

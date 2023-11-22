@@ -128,14 +128,10 @@ radioBtns.forEach(radioBtn => {
 });
 findSelected();
 
-const open = document.getElementById("open");
-const modal_container = document.getElementById("modal_container");
-const close = documentt.getElementById("close");
+function openModal() {
+    modal_container.classList.add('show');
+}
 
-open.addEventListener('click', () => {
-    modal_container.modal_container.classList.add('show');
-});
-
-close.addEventListener('click', () => {
-    modal_container.modal_container.classList.remove('show');
-});
+function closeModal() {
+    modal_container.classList.remove('show');
+}
