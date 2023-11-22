@@ -59,11 +59,11 @@ p {
 .card-area {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     row-gap: 10px;
     column-gap: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 

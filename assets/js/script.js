@@ -5,10 +5,6 @@ let firstCard, secondCard;
 let lockGame = false;
 let score = 0;
 
-var modal = document.getElementById("playModal");
-
-var span = document.getElementsByClassName("close")[0];
-
 document.querySelector(".score").textContent = score;
 
 cards = [
