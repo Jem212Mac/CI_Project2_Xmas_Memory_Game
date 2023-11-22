@@ -127,3 +127,15 @@ radioBtns.forEach(radioBtn => {
     radioBtn.addEventListener('change', findSelected);
 });
 findSelected();
+
+const open = document.getElementById("open");
+const modal_container = document.getElementById("modal_container");
+const close = documentt.getElementById("close");
+
+open.addEventListener('click', () => {
+    modal_container.modal_container.classList.add('show');
+});
+
+close.addEventListener('click', () => {
+    modal_container.modal_container.classList.remove('show');
+});
