@@ -1,7 +1,9 @@
+/* General Styles */
 * {
     box-sizing: border-box;
 }
 
+/* Body Styles */
 body {
     min-height: 100vh;
     max-width: 100vw;
@@ -12,12 +14,14 @@ body {
     color: rgb(0, 0, 0);
 }
 
+/* Paragraph Styles */
 p {
     text-align: center;
     font-size: 15px;
     font-weight: bold;
 }
 
+/* Button Styles */
 button {
     background-color: rgb(26, 78, 58);
     border: 0;
@@ -25,16 +29,22 @@ button {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     color: rgb(255, 255, 255);
     font-size: 14px;
+    margin-bottom: 10px;
     padding: 10px 25px;
+    width: 50%;
+    text-align: center;
+    
 
 }
 
+/* Heading Styles */
 .heading {
     width: 70%;
     margin-left: 15%;
     margin-bottom: 20px;
 }
 
+/* Styles for the Score Area */
 
 .score-area {
     height: 50%;
@@ -48,6 +58,7 @@ button {
     color: rgb(255, 255, 255);
 }
 
+/* Styles for the Background Selection Area */
 .backg {
     height: 50%;
     width: 90%;
@@ -60,6 +71,7 @@ button {
     margin-bottom: 20px;
 }
 
+/* Styles for the Restart Button */
 .restart-button {
     display: flex;
     justify-content: space-evenly;
@@ -72,6 +84,7 @@ button {
     color: rgb(255, 255, 255);
 }
 
+/*Styles for the Card or Game Play Area*/
 .card-area {
     display: flex;
     flex-wrap: wrap;
@@ -131,6 +144,7 @@ button {
     border-radius: 10px;
 }
 
+/* Styles for the Background */
 .trees {
     background-image: url("../images/3d-trees.jpg");
 }
@@ -143,6 +157,7 @@ button {
     background-image: url("../images/baubles.jpg");
 }
 
+/* Styles for the Game Rules (How to Play) Modal */ 
 .modal-container {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
