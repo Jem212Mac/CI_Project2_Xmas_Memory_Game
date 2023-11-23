@@ -45,7 +45,6 @@ button {
 }
 
 /* Styles for the Score Area */
-
 .score-area {
     height: 50%;
     width: 50%;
@@ -178,7 +177,7 @@ button {
     opacity: 1;
 }
 
-/* Styles for the Game Rules (How to Play) Modal */
+/* Styles for the Celebration Modal */
 .modal-celebration {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;

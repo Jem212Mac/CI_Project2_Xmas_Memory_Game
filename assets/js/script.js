@@ -94,6 +94,7 @@ function disableCards() {
     matchCounter++;
     if (matchCounter === 12) {
        modal_celebration.classList.add('show');
+        document.querySelector(".score").textContent = score;
     }
     resetGame();
 }

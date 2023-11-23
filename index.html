@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
-        <!--css stylesheet-->
+        <!--CSS Stylesheet-->
         <link rel="stylesheet" href="assets/css/style.css" />
         <title>Xmas Memory Card Game</title>
     </head>
@@ -18,10 +18,10 @@
         <header>
         <img class="heading" src="assets/images/parchment.png" alt="Merry Christmas Banner" />
         </header>
-        <!--Card or Game Area where Cards will be Generated-->
+        <!--Game Area where Cards will be Generated-->
         <main>
             <div class="card-area"></div>
-            <!--Area where scores / moves will be displayed-->
+            <!--Area where scores / no. of moves will be displayed-->
             <div class="score-area">
             <p>Moves: <span class="score"></span></p>
             </div>
@@ -36,9 +36,9 @@
                 <label for="baubles">Baubles</label>
             </div>
             <!--Button to open modal with game rules-->
-            <span id="open">
+            <div id="open">
                 <button onclick="openModal()">Game Rules</button>
-            </span>
+            </div>
             <div class="modal-container" id="modal_container">
             <!--Modal with Game Rules-->
                 <div class="modal">
@@ -54,19 +54,20 @@
                         Your score will be dependent on the number of moves you made to win.
                     </p>
                     <!--Button to close modal-->
-                    <span id="close">
+                    <div id="close">
                         <button onclick="closeModal()">Close</button>
-                    </span>
+                    </div>
                 </div>
             </div>
             <div class="modal-celebration" id="modal_celebration">
-                <!--You Win Modal-->
+                <!--You Have Won Modal-->
                 <div class="modal">
-                    <h1>You Have Won!</h1>
+                    <h1>Congratulations!</h1> 
+                    <h2>You have won.</h2>
                     <!--Button to close modal-->
-                    <span id="close">
+                    <div id="close">
                         <button onclick="closeCelebration()">Close</button>
-                    </span>
+                    </div>
                 </div>
             </div>
             <!--Button to Restart Game-->
