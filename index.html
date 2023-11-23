@@ -38,34 +38,34 @@
             <div id="open">
                 <button onclick="openModal()">Game Rules</button>
             </div>
-            <div class="modal-container-rules" id="modal_container_rules">
-            <!--Modal with Game Rules-->
-                <div class="modal-rules">
+            <div class="modal-container" id="modal_container">
+                <!--Modal with Game Rules-->
+                <div class="modal">
                     <h1>How to Play</h1>
-                    <p>The aim of the game is to match all pairs of card images.  
-                        Click on a card to turn it over and display the card image.  
-                        Click on a second card to display that card's image.  
-                        If the second image matches the first image, the cards will remain 
-                        turned facing up, and you can continue to try to match another pair of cards.  
-                        If the second image does not match the first image, 
-                        both cards will turn back over and you will need to try again.  
-                        Once all the cards are matched, you have won the game.  
+                    <p>The aim of the game is to match all pairs of card images.
+                        Click on a card to turn it over and display the card image.
+                        Click on a second card to display that card's image.
+                        If the second image matches the first image, the cards will remain
+                        turned facing up, and you can continue to try to match another pair of cards.
+                        If the second image does not match the first image,
+                        both cards will turn back over and you will need to try again.
+                        Once all the cards are matched, you have won the game.
                         Your score will be dependent on the number of moves you made to win.
                     </p>
                     <!--Button to close modal-->
                     <div id="close">
-                        <button onclick="closeRules()">Close</button>
+                        <button onclick="closeModal()">Close</button>
                     </div>
                 </div>
-                <div class="modal-container-celebration" id="modal_container_celebration">
-                    <!--You Have Won Modal-->
-                    <div class="modal-win">
-                        <h1>Congratulations!</h1>
-                        <h2>You have won.</h2>
-                        <!--Button to close modal-->
-                        <div id="close">
-                            <button onclick="closeCelebration()">Close</button>
-                        </div>
+            </div>
+            <div class="modal-celebration" id="modal_celebration">
+                <!--You Have Won Modal-->
+                <div class="modal">
+                    <h1>Congratulations!</h1>
+                    <h2>You have won.</h2>
+                    <!--Button to close modal-->
+                    <div id="close">
+                        <button onclick="closeCelebration()">Close</button>
                     </div>
                 </div>
             </div>
@@ -73,10 +73,11 @@
             <div class="restart_button">
                 <button onclick="restart()">Restart Game</button>
             </div>
-        </main>
-        <footer>
-        </footer>
-    <!--Script for javascript code-->
-    <script src="assets/js/script.js"></script>
-    </body>
-</html>
+            </main>
+            <footer>
+            </footer>
+            <!--Script for javascript code-->
+            <script src="assets/js/script.js"></script>
+            </body>
+            
+            </html>
