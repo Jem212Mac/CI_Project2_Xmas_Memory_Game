@@ -7,6 +7,7 @@ let score = 0;
 let matchCounter = 0;
 
 const sfxFlip = document.getElementById('sfx-flip');
+const sfxCheer = document.getElementById('sfx-cheer');
 
 document.querySelector(".score").textContent = score;
 
@@ -97,6 +98,7 @@ function disableCards() {
     secondCard.removeEventListener("click", turnCard);
     matchCounter++;
     if (matchCounter === 12) {
+        sfxCheer.play();
         modal_celebration.classList.add('show');
         document.querySelector(".score").textContent = score;
     }
