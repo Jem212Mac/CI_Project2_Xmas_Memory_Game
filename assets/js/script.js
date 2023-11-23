@@ -93,11 +93,11 @@ function disableCards() {
     secondCard.removeEventListener("click", turnCard);
     matchCounter++;
     if (matchCounter === 12) {
-       modal_container_celebration.classList.add('show');
+        modal_celebration.classList.add('show');
+        document.querySelector(".score").textContent = score;
     }
     resetGame();
 }
-
 function turnBackCards() {
     setTimeout(() => {
         firstCard.classList.remove("turned");
@@ -105,13 +105,11 @@ function turnBackCards() {
         resetGame();
     }, 1000);
 }
-
 function resetGame() {
     firstCard = null;
     secondCard = null;
     lockGame = false;
 }
-
 function restart() {
     resetGame();
     shuffleCards();
@@ -121,9 +119,7 @@ function restart() {
     cardArea.innerHTML = "";
     createCards();
 }
-
 let radioBtns = document.querySelectorAll('input[name="background"]');
-
 function findSelected() {
     let selected = document.querySelector('input[name="background"]:checked').value;
     document.body.classList = [`${selected}`];
@@ -134,13 +130,13 @@ radioBtns.forEach(radioBtn => {
 findSelected();
 
 function openModal() {
-    modal_rules.classList.add('show');
+    modal_container.classList.add('show');
 }
 
-function closeRules() {
-    modal_container_rules.classList.remove('show');
+function closeModal() {
+    modal_container.classList.remove('show');
 }
 
 function closeCelebration() {
-    modal_container_celebration.classList.remove('show');
+    modal_celebration.classList.remove('show');
 }
