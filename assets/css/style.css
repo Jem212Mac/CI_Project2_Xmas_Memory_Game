@@ -135,63 +135,48 @@ button {
     background-image: url("../images/baubles.jpg");
 }
 
-/* Styles for the Game Rules (How to Play) & Celebration Modals */ 
-.modal-container-rules, .modal-container-celebration {
+/* Styles for the Game Rules (How to Play) Modal */
+.modal-container {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: fixed;
-    opacity: 0;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    transition: opacity 0.3s ease;
-}
 
-.modal-container-rules.show {
-    pointer-events: auto;
-    opacity: 1;
-}
+    @@ -157,
+    13+151,
+    13 @@ button {
+        transition: opacity 0.3s ease;
+    }
 
-/* Styles for the Celebration Modal */
- /*.modal-celebration {
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    opacity: 0;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    transition: opacity 0.3s ease;
-} */
+    .modal-container.show {
+        pointer-events: auto;
+        opacity: 1;
+    }
 
-.modal-container-celebration.show {
-    pointer-events: auto;
-    opacity: 1;
-}
+    /* Styles for the Celebration Modal */
+    .modal-celebration {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
 
-.modal-rules, .modal-win {
-    background-color: rgb(219, 173, 98);
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    padding: 30px 50px;
-    width: 500px;
-    max-width: 100%;
-    text-align: center;
-}
+        @@ -176,
+        19+170,
+        19 @@ button {
+            height: 100vh;
+            width: 100vw;
+            transition: opacity 0.3s ease;
+        }
 
-.modal h1 {
-    margin: 0;
-}
+        .modal-celebration.show {
+            pointer-events: auto;
+            opacity: 1;
+        }
 
-.modal p {
-    font-size: 14px;
-    opacity: 0.7;
-}
+        .modal {
+            background-color: rgb(219, 173, 98);
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            padding: 30px 50px;
+            width: 600px;
+            max-width: 100%;
+            text-align: center;
+        }
