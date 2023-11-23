@@ -6,6 +6,8 @@ let lockGame = false;
 let score = 0;
 let matchCounter = 0;
 
+const sfxFlip = document.getElementById('sfx-flip');
+
 document.querySelector(".score").textContent = score;
 
 cards = [
@@ -70,12 +72,14 @@ function turnCard() {
     if (lockGame) return;
     if (this === firstCard) return;
     this.classList.add("turned");
+    sfxFlip.play();
     if (!firstCard) {
         firstCard = this;
         return;
     }
 
     secondCard = this;
+    sfxFlip.play();
     score++;
     document.querySelector(".score").textContent = score;
     lockGame = true;
