@@ -12,11 +12,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 /* General Paragraph Styles */
 p {
-    text-align: center;
     font-size: 15px;
     font-weight: bold;
 }
@@ -32,13 +32,11 @@ button {
     margin-bottom: 10px;
     padding: 10px 25px;
     width: 50%;
-    text-align: center;
 }
 
 /* Heading Styles */
 .heading {
-    width: 70%;
-    margin-left: 15%;
+    width: 90%;
     margin-bottom: 20px;
 }
 
@@ -48,8 +46,6 @@ button {
     width: 50%;
     margin: auto;
     margin-top: 350px;
-    font-size: 10px;
-    text-align: center;
     border-radius: 10px;
     background-color:rgb(75, 8, 18);
     color: rgb(255, 255, 255);
@@ -60,9 +56,7 @@ button {
     height: 70%;
     width: 100%;
     margin: auto;
-    font-size: 10px;
     padding: 10px;
-    text-align: center;
     border-radius: 10px;
     background-color: rgb(75, 8, 18);
     color: rgb(255, 255, 255);
@@ -141,8 +135,8 @@ button {
     background-image: url("../images/baubles.jpg");
 }
 
-/* Styles for the Game Rules (How to Play) Modal */ 
-.modal-container {
+/* Styles for the Game Rules (How to Play) & Celebration Modals */ 
+.modal-container-rules, .modal-container-celebration {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
@@ -157,13 +151,13 @@ button {
     transition: opacity 0.3s ease;
 }
 
-.modal-container.show {
+.modal-container-rules.show {
     pointer-events: auto;
     opacity: 1;
 }
 
 /* Styles for the Celebration Modal */
-.modal-celebration {
+ /*.modal-celebration {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
@@ -176,19 +170,19 @@ button {
     height: 100vh;
     width: 100vw;
     transition: opacity 0.3s ease;
-}
+} */
 
-.modal-celebration.show {
+.modal-container-celebration.show {
     pointer-events: auto;
     opacity: 1;
 }
 
-.modal {
+.modal-rules, .modal-win {
     background-color: rgb(219, 173, 98);
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 30px 50px;
-    width: 600px;
+    width: 500px;
     max-width: 100%;
     text-align: center;
 }

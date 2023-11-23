@@ -38,9 +38,9 @@
             <div id="open">
                 <button onclick="openModal()">Game Rules</button>
             </div>
-            <div class="modal-container" id="modal_container">
+            <div class="modal-container-rules" id="modal_container_rules">
             <!--Modal with Game Rules-->
-                <div class="modal">
+                <div class="modal-rules">
                     <h1>How to Play</h1>
                     <p>The aim of the game is to match all pairs of card images.  
                         Click on a card to turn it over and display the card image.  
@@ -54,18 +54,18 @@
                     </p>
                     <!--Button to close modal-->
                     <div id="close">
-                        <button onclick="closeModal()">Close</button>
+                        <button onclick="closeRules()">Close</button>
                     </div>
                 </div>
-            </div>
-            <div class="modal-celebration" id="modal_celebration">
-                <!--You Have Won Modal-->
-                <div class="modal">
-                    <h1>Congratulations!</h1> 
-                    <h2>You have won.</h2>
-                    <!--Button to close modal-->
-                    <div id="close">
-                        <button onclick="closeCelebration()">Close</button>
+                <div class="modal-container-celebration" id="modal_container_celebration">
+                    <!--You Have Won Modal-->
+                    <div class="modal-win">
+                        <h1>Congratulations!</h1>
+                        <h2>You have won.</h2>
+                        <!--Button to close modal-->
+                        <div id="close">
+                            <button onclick="closeCelebration()">Close</button>
+                        </div>
                     </div>
                 </div>
             </div>

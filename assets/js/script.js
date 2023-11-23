@@ -93,8 +93,7 @@ function disableCards() {
     secondCard.removeEventListener("click", turnCard);
     matchCounter++;
     if (matchCounter === 12) {
-       modal_celebration.classList.add('show');
-        document.querySelector(".score").textContent = score;
+       modal_container_celebration.classList.add('show');
     }
     resetGame();
 }
@@ -135,13 +134,13 @@ radioBtns.forEach(radioBtn => {
 findSelected();
 
 function openModal() {
-    modal_container.classList.add('show');
+    modal_rules.classList.add('show');
 }
 
-function closeModal() {
-    modal_container.classList.remove('show');
+function closeRules() {
+    modal_container_rules.classList.remove('show');
 }
 
 function closeCelebration() {
-    modal_celebration.classList.remove('show');
+    modal_container_celebration.classList.remove('show');
 }
