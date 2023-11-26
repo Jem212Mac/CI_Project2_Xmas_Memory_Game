@@ -265,6 +265,11 @@ button {
         height: 150px;
         width: 150px;
     }
+ /* Styles for the Score Area */
+ .score-area {
+     margin-top: 850px;
+ }
+
 }
 
 /* Media query: desktops and larger (1440px and up) */
@@ -286,6 +291,11 @@ button {
         height: 200px;
         width: 200px;
     }
+
+        /* Styles for the Score Area */
+        .score-area {
+            margin-top: 1100px;
+        }
 }
 
 /* Media query: widescreen and larger (2560px and up) */
@@ -307,6 +317,11 @@ button {
         height: 300px;
         width: 300px;
     }
+
+         /* Styles for the Score Area */
+         .score-area {
+             margin-top: 1600px;
+         }
 }
 
 }
