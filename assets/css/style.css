@@ -31,7 +31,7 @@ button {
     font-size: 14px;
     margin-bottom: 10px;
     padding: 10px 25px;
-    width: 30%;
+    width: 50%;
 }
 
 /* Heading Styles */
@@ -200,6 +200,11 @@ button {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+    /* Button Styles */
+        button {
+            width: 30%;
+        }
 
     /* Styles for the Game Play Area and Cards */
     .card-area {
