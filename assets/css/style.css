@@ -282,7 +282,7 @@ button {
     /* Styles for the Game Play Area and Cards */
     .card-area {
         height: 200px;
-        width: 1000px;
+        width: 1300px;
     }
         
     .back,
@@ -298,7 +298,7 @@ button {
 
         /* Styles for the Score Area */
         .score-area {
-            margin-top: 1100px;
+            margin-top: 700px;
         }
 }
 
