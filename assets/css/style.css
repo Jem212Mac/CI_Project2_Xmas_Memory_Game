@@ -218,23 +218,45 @@ button {
         width: 100px;
     }
 
-        /* Media query: tablets and larger (1024px and up) */
-        @media screen and (min-width: 1024px) {
+/* Media query: tablets and larger (1024px and up) */
+@media screen and (min-width: 1024px) {
     
-            /* Styles for the Game Play Area and Cards */
-            .card-area {
-                height: 150px;
-                width: 750px;
-            }
+    /* Styles for the Game Play Area and Cards */
+    .card-area {
+        height: 150px;
+        width: 750px;
+    }
     
-            .back,
-            .front {
-                height: 150px;
-                width: 150px;
-            }
+    .back,
+    .front {
+        height: 150px;
+        width: 150px;
+    }
     
-            .front-image {
-                height: 150px;
-                width: 150px;
-            }
+    .front-image {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+/* Media query: tablets and larger (1440px and up) */
+@media screen and (min-width: 1440px) {
+        
+    /* Styles for the Game Play Area and Cards */
+    .card-area {
+        height: 200px;
+        width: 1000px;
+    }
+        
+    .back,
+    .front {
+        height: 200px;
+        width: 200px;
+    }
+        
+    .front-image {
+        height: 200px;
+        width: 200px;
+    }
+}
 }
