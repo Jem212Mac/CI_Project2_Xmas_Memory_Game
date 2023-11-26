@@ -31,7 +31,7 @@ button {
     font-size: 14px;
     margin-bottom: 10px;
     padding: 10px 25px;
-    width: 60%;
+    width: 30%;
 }
 
 /* Heading Styles */
@@ -217,6 +217,29 @@ button {
         height: 100px;
         width: 100px;
     }
+
+        /* Styles for the Score Area */
+        .score-area {
+            height: 50%;
+            width: 30%;
+            margin: auto;
+            margin-top: 600px;
+            border-radius: 10px;
+            background-color: rgb(75, 8, 18);
+            color: rgb(255, 255, 255);
+        }
+    
+        /* Styles for the Background Selection Area */
+        .backg {
+            height: 70%;
+            width: 60%;
+            margin: auto;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: rgb(75, 8, 18);
+            color: rgb(255, 255, 255);
+            margin-bottom: 20px;
+        }
 
 /* Media query: laptops and larger (1024px and up) */
 @media screen and (min-width: 1024px) {
