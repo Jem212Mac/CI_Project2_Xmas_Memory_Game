@@ -218,7 +218,7 @@ button {
         width: 100px;
     }
 
-/* Media query: tablets and larger (1024px and up) */
+/* Media query: laptops and larger (1024px and up) */
 @media screen and (min-width: 1024px) {
     
     /* Styles for the Game Play Area and Cards */
@@ -239,7 +239,7 @@ button {
     }
 }
 
-/* Media query: tablets and larger (1440px and up) */
+/* Media query: desktops and larger (1440px and up) */
 @media screen and (min-width: 1440px) {
         
     /* Styles for the Game Play Area and Cards */
@@ -259,4 +259,26 @@ button {
         width: 200px;
     }
 }
+
+/* Media query: widescreen and larger (2560px and up) */
+@media screen and (min-width: 2560px) {
+
+    /* Styles for the Game Play Area and Cards */
+    .card-area {
+        height: 300px;
+        width: 1500px;
+    }
+
+    .back,
+    .front {
+        height: 300px;
+        width: 300px;
+    }
+
+    .front-image {
+        height: 300px;
+        width: 300px;
+    }
+}
+
 }
