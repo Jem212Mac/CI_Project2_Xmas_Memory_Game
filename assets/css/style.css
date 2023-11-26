@@ -209,8 +209,12 @@ button {
     /* Styles for the Game Play Area and Cards */
     .card-area {
         height: 100px;
-        width: 500px;
+        width: 650px;
     }
+
+        .card {
+            flex-basis: 15%;
+        }
 
     .back,
     .front {
@@ -228,7 +232,7 @@ button {
             height: 50%;
             width: 30%;
             margin: auto;
-            margin-top: 600px;
+            margin-top: 350px;
             border-radius: 10px;
             background-color: rgb(75, 8, 18);
             color: rgb(255, 255, 255);
