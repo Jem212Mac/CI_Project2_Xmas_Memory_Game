@@ -31,8 +31,6 @@ The purpose of the game is to test the player's memory, using a traditional memo
   - [Deployment \& Local Development](#deployment--local-development)
     - [Deployment](#deployment)
     - [Local Development](#local-development)
-      - [How to Fork](#how-to-fork)
-      - [How to Clone](#how-to-clone)
   - [Testing](#testing)
   - [Credits](#credits)
     - [Code Used](#code-used)
@@ -111,11 +109,12 @@ No frameworks, libraries or programs were used.
 
 ### Deployment
 
-The game was deployed using GitHub Actions.
+The game was deployed to https://jem212mac.github.io/CI_Project_2_Xmas_Memory_Game/ using GitHub Actions.
 
 ### Local Development
 
 Codeanywhere was used as the IDE for local development of the game and GitHub was used for version control.
+
 
 ## Testing
 
@@ -123,17 +122,15 @@ Details of the testing performed are included in the testing.md file.
 
 ## Credits
 
-Templates for the readme.md and testing.md were based on ones created by Kera Cudmore at https://github.com/kera-cudmore/readme-examples.
-
 ### Code Used
 
-Code for the shufflecards function was taken and adapted from the following stack overflow site:
+Code for the shufflecards function was taken and adapted from https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array.
 
-https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-
-
-### Content
 
 ###  Media
+
   
 ###  Acknowledgments
+
+Templates for the readme.md and testing.md were based on ones created by Kera Cudmore at https://github.com/kera-cudmore/readme-examples.
+
