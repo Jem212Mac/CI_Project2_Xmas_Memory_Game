@@ -6,34 +6,21 @@
 - [Xmas Memory Game - TESTING](#xmas-memory-game---testing)
   - [CONTENTS](#contents)
   - [AUTOMATED TESTING](#automated-testing)
-    - [ W3C Validator](#w3c-validator)
-      - [**URI Input**](#uri-input)
-      - [**Direct Input**](#direct-input)
-      - [**CSS Validation**](#css-validation)
-    - [Lighthouse](#lighthouse)
-    - [WAVE](#wave)
   - [MANUAL TESTING](#manual-testing)
-    - [Testing User Stories](#testing-user-stories)
-    - [Full Testing](#full-testing)
   - [BUGS](#bugs)
-    - [Known Bugs](#known-bugs)
-    - [Solved Bugs](#solved-bugs)
 
 ---
 
 ## AUTOMATED TESTING
 
-###  W3C Validator
+### W3C HTML Validator
 
-#### **URI Input**
+### Jigsaw CSS Validator
 
-#### **Direct Input**
-
-#### **CSS Validation**
+### JSHint
 
 ### Lighthouse
 
-### WAVE
 
 ## MANUAL TESTING
 
