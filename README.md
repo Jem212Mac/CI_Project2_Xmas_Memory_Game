@@ -43,12 +43,19 @@ The purpose of the game is to test the player's memory while appealling to eithe
 ### User Stories
 
 As a user I want a play a game that will test my memory in a fun and interactive way.
+
 As a user, I want to play a game that delights me with a xmas theme, in the run up to xmas, using xmas imagery and colours.
+
 As a user, I want the game to be intuitive to play, meaning that instructions are not necessary, but will be provided if needed.
+
 As a user, i want the game to provide me with instant feedback on how my game is going by recording the number of moves I have made, and using sound effects to let me know when cards have been flipped.
+
 As a user, I want the game to let me know when I have won using a pop up modal and sound effects.
+
 As a user, I want to be able to restart the game at any point by clicking a button.
+
 As a user, I want to be able to change the background image, at any point in the game, to suit my mood.
+
 
 ## Design
 
