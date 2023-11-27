@@ -54,6 +54,7 @@ As a user, I want to be able to restart the game at any point by clicking a butt
 
 As a user, I want to be able to change the background image, at any point in the game, to suit my mood.
 
+
 ## Design
 ### Colour Scheme
 The colour scheme includes traditional xmas colours including red, white, silver and gold.
@@ -75,12 +76,14 @@ Software was not used to create a wireframe, but a wireframe design was drawn ou
 
 ![wireframe](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/6421589e-725d-49fc-a994-1f065c6dbc3f)
 
+
 ## Features
 ### General features on each page
 
 ### Future Implementations
 
 ### Accessibility
+
 
 ## Technologies Used
 ### Languages Used
@@ -89,6 +92,7 @@ The game was created using html5, css3 and vanilla javascript.
 ### Frameworks, Libraries & Programs Used
 No frameworks, libraries or programs were used.
 
+
 ## Deployment & Local Development
 ### Deployment
 The game was deployed to https://jem212mac.github.io/CI_Project_2_Xmas_Memory_Game/ using GitHub Actions.
@@ -96,8 +100,10 @@ The game was deployed to https://jem212mac.github.io/CI_Project_2_Xmas_Memory_Ga
 ### Local Development
 Codeanywhere was used as the IDE for local development of the game and GitHub was used for version control.
 
+
 ## Testing
 Details of the testing performed are included in the testing.md file.
+
 
 ## Credits
 ### Code Used
@@ -107,3 +113,8 @@ Code for the shufflecards function was taken and adapted from https://stackoverf
 
 ### Acknowledgments
 Templates for the readme.md and testing.md were based on ones created by Kera Cudmore at https://github.com/kera-cudmore/readme-examples.
+The following tutorials were viewed in order to learn how to create a modal, and how to create sound effects for the card flips:
+https://www.youtube.com/watch?app=desktop&v=XH5OW46yO8I
+https://www.youtube.com/watch?v=VlwSz2dXK_8
+
+
