@@ -2,7 +2,7 @@
 
 This is a xmas themed memory game created using html, css, and javascript.
 
-The purpose of the game is to test the player's memory while appealling to either kids or any players that want to get into the xmas spirit; the game is designed with a xmas colour palette and xmas themed imagery.
+The purpose of the game is to test the player's memory while appealling to either kids or adult players that want to get into the xmas spirit; the game is designed with a xmas colour palette and xmas themed imagery.
 
 ---
 
