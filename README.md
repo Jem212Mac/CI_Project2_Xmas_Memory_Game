@@ -102,10 +102,10 @@ The game consists of only one page which includes the following features:
    
 ### Future Implementations
 Given additional time I would like to implement the following features:
-1. Add easy, medium and hard difficulty levels.  Easy level would involve matching 12 cards (6 card pairs), medium level would involve matching 18 cards (9 card pairs) and hard level would involve matching 24 cards (12 card pairs)/
+1. Add easy, medium and hard difficulty levels.  Easy level would involve matching 12 cards (6 card pairs), medium level would involve matching 18 cards (9 card pairs) and hard level would involve matching 24 cards (12 card pairs).
 2. Add a sfx button to toggle sound effects on or off.
-3. Add xmas music that would be toggled off by default but that could be swithced on if the user wishes to hear it.
-4. Use local storage to store previous scores and then use this to let the user know if the beat their previous or highest score when they win a game.
+3. Add xmas music that would be toggled off by default but that could be switched on if the user wishes to hear it.
+4. Use local storage to store previous scores and then use this to let the user know if they beat their previous or highest score when they win a game.
 5. Add an animated snowman character that can show emotions dependent on how the player is doing (e.g. happy snowman, sad snowman etc.).
 6. Add confetti using a javascript library to the celebration modal.
 
