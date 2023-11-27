@@ -113,6 +113,7 @@ Given additional time I would like to implement the following features:
 1. All images include a text alternative so that ayone that cannot see the image can know what is displayed using a screen reader.
 2. Attention was paid to the contrast between the card backs and the background images.
 3. Attention was given to the colour contrast between call to action buttons and text on those buttons.
+4. Attention was paid towards the contrast between text and the background colour on modals.
 
 
 ## Technologies Used
