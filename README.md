@@ -60,7 +60,7 @@ As a user, I want to be able to change the background image, at any point in the
 The colour scheme includes traditional xmas colours including red, white, silver and gold.
 
 ### Typography
-The christmas banner used in the header incorporates a scripted style of font which fits in well with the christmas theme.  All other text makes use of a google font (Open Sans) which is a sans-serif font that is clear and easy to read.  This is important for modal's which provide information to the user and for buttons that may need to be clicked by the user.
+The christmas banner used in the header incorporates a scripted style of font which fits in well with the christmas theme.  All other text makes use of a google font (Open Sans) which is a sans-serif font that is clear and easy to read.
 
 ### Imagery
 Xmas imagery is used throughout the site, with a choice of three background images consisting of a 3D wintery scene, a decorated blue xmas tree background, and a blue background with xmas baubles, sparkles and snow.  Xmas themed images are used on the memory cards, including several images of snowmen and santa claus, a reindeer, a gingerbread man, a polar bear and a penguin.
@@ -81,7 +81,7 @@ The game consists of only one page which includes the following features:
 
 ![Game Rules Modal](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/d74f014d-b54b-4c30-bb7a-ccf845c4908d)
 
-2. The ability to change the background image using a set of three radio buttons (shown in screenshot above).  The 'Winter Scene' is selected by default, but the background can be changed to any of the three available background using the radio buttons at anytime.
+2. The ability to change the background image using a set of three radio buttons (shown in screenshot above).  The 'Winter Scene' is selected by default, but the background can be changed to any of the three available background images using the radio buttons at anytime.
 
 ![3d-trees](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/8aef21f3-7af5-4f6f-898c-2554815372da)
 
@@ -89,15 +89,15 @@ The game consists of only one page which includes the following features:
 
 ![baubles](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/23b85e43-595a-48ec-89bc-e5f18711e14c)
 
-3. The user can click on 1 card to reveal a xmas themed image, and then a second card t reveal another image.  If the second image matches the first image, the cards are locked facing front and the user can try to match another pair of cards.  If the second image does not match the first image the cards flip back round and the player must try again.
+3. The user can click on one card to reveal a xmas themed image, and then a second card to reveal another image.  If the second image matches the first image, the cards are locked facing front and the user can try to match another pair of cards.  If the second image does not match the first image the cards flip back round and the player must try again.
 
 4. As the user clicks on cards, the number of moves (pairs of cards selected) are recorded in the scores area above the background selection area, and sound effects let the user know when a card has been flipped.
 
-5. If the user matches all the cards, a modal popup lets the user know that they have won the game and a 'cheering' sound effect helps to congratulate them.
+5. If the user matches all the cards, a modal popup lets the user know that they have won the game and a 'cheering' sound effect is played.
 
 ![celebration modal](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/42c535bc-bf0f-4d97-9924-b4f17771ab88)
 
-6. The user can restart the game back to the beginning at anytime using the 'Restart Game' button (see screenshot above).
+6. The user can restart the game at anytime using the 'Restart Game' button (see screenshot above).  This will rset the no of moves to zero and turn all the cards to display the card back image on each card.
 
    
 ### Future Implementations
@@ -110,7 +110,7 @@ Given additional time I would like to implement the following features:
 6. Add confetti using a javascript library to the celebration modal.
 
 ### Accessibility
-1. All images include a text alternative so that ayone that cannot see the image can know what is displayed using a screen reader.
+1. All images include a text alternative so that anyone that cannot see the image can know what is displayed using a screen reader.
 2. Attention was paid to the contrast between the card backs and the background images.
 3. Attention was given to the colour contrast between call to action buttons and text on those buttons.
 4. Attention was paid towards the contrast between text and the background colour on modals.
