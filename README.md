@@ -89,8 +89,17 @@ The game consists of only one page which includes the following features:
 
 ![baubles](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/23b85e43-595a-48ec-89bc-e5f18711e14c)
 
-3. 
+3. The user can click on 1 card to reveal a xmas themed image, and then a second card t reveal another image.  If the second image matches the first image, the cards are locked facing front and the user can try to match another pair of cards.  If the second image does not match the first image the cards flip back round and the player must try again.
 
+4. As the user clicks on cards, the number of moves (pairs of cards selected) are recorded in the scores area above the background selection area, and sound effects let the user know when a card has been flipped.
+
+5. If the user matches all the cards, a modal popup lets the user know that they have won the game and a 'cheering' sound effect helps to congratulate them.
+
+![celebration modal](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/42c535bc-bf0f-4d97-9924-b4f17771ab88)
+
+6. The user can restart the game back to the beginning at anytime using the 'Restart Game' button (see screenshot above).
+
+   
 ### Future Implementations
 
 ### Accessibility
