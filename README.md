@@ -110,6 +110,11 @@ Details of the testing performed are included in the testing.md file.
 Code for the shufflecards function was taken and adapted from https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array.
 
 ### Media
+The christmas banner image, three background images, twelve card front images, and one card back image were taken from https://www.vecteezy.com/free-vector.
+
+The christmas banner image was edited and cleaned up to make it more transparent using microsoft paint.
+
+The card flip sound and cheering sound for the celebration modal were taken from https://pixabay.com/.
 
 ### Acknowledgments
 Templates for the readme.md and testing.md were based on ones created by Kera Cudmore at https://github.com/kera-cudmore/readme-examples.
