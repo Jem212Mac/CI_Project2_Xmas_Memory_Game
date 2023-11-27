@@ -53,6 +53,6 @@ All of the above features were tested on a Samsung Galaxy Flip, an Apple iPhone,
 
 ## BUGS
 ### Known Bugs
-It was noticed while testing that if the user clicks on the second card too quickly, the sound effect for the second card flip does not play because the first sound effect has not finished.  Not sure if I would class this as a bug, but it might be worth investigating if this could be resolved by adding a delay to stop the user from clicking the second card too quickly. This might adversely impact user experience though.
+It was noticed while testing that if the user clicks on the second card too quickly, the sound effect for the second card flip does not play because the first sound effect has not finished.  This isn't really a bug, but it might be worth investigating if this could be resolved by adding a delay to stop the user from clicking the second card too quickly. However a delay might also adversely impact user experience causing frustration so its perhaps best to leave this alone.
 
 ### Solved Bugs
