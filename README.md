@@ -83,6 +83,9 @@ Software was not used to create a wireframe, but a wireframe design was drawn ou
 ### Future Implementations
 
 ### Accessibility
+The accessibilty of the site was tested using Lighthouse:
+
+![Lighthouse_Report](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/51123828-3b4c-4a33-bfec-9299bc479bf3)
 
 
 ## Technologies Used
