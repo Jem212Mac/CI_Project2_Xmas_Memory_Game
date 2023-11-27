@@ -40,29 +40,6 @@ button {
     margin-bottom: 20px;
 }
 
-/* Styles for the Score Area */
-.score-area {
-    height: 50%;
-    width: 50%;
-    margin: auto;
-    margin-top: 350px;
-    border-radius: 10px;
-    background-color: rgb(75, 8, 18);
-    color: rgb(255, 255, 255);
-}
-
-/* Styles for the Background Selection Area */
-.backg {
-    height: 70%;
-    width: 100%;
-    margin: auto;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: rgb(75, 8, 18);
-    color: rgb(255, 255, 255);
-    margin-bottom: 20px;
-}
-
 /* Styles for the Game Play Area and Cards */
 .card-area {
     display: flex;
@@ -120,6 +97,29 @@ button {
     height: 50px;
     width: 50px;
     border-radius: 10px;
+}
+
+/* Styles for the Score Area */
+.score-area {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    margin-top: 350px;
+    border-radius: 10px;
+    background-color: rgb(75, 8, 18);
+    color: rgb(255, 255, 255);
+}
+
+/* Styles for the Background Selection Area */
+.backg {
+    height: 70%;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(75, 8, 18);
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
 }
 
 /* Styles for the Background */

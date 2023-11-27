@@ -11,6 +11,7 @@ let radioBtns = document.querySelectorAll('input[name="background"]');
 
 document.querySelector(".score").textContent = score;
 
+/* Creat array for card images */
 cards = [
     { name: "snowman1", image: "assets/images/snowman_1.jpg" },
     { name: "snowman2", image: "assets/images/snowman_2.jpg" },
@@ -38,10 +39,13 @@ cards = [
     { name: "penguin", image: "assets/images/penguin.jpg" },
 ];
 
+/* Call function to shuffle the cards */
 shuffleCards();
+
+/* Call function to create the cards in the game play area */
 createCards();
 
-/* Based on Fisher-Yates shuffle algorithm obtained from stack overflow site */
+/* Based on Fisher-Yates shuffle algorithm obtained from stack overflow*/
 function shuffleCards() {
     let currentIndex = cards.length, randomIndex;
     while (currentIndex > 0) {
@@ -54,7 +58,7 @@ function shuffleCards() {
     return cards;
 }
 
-/* Function to setup or create shuffled card on html page */
+/* Function to setup or create shuffled cards on html page */
 function createCards() {
     for (let card of cards) {
         const cardElement = document.createElement("div");
@@ -110,7 +114,7 @@ function disableCards() {
     resetGame();
 }
 
-/* Functions to flip cards back and reset the game if the cards do not match */
+/* Function to flip cards back and reset the game if the cards do not match */
 function turnBackCards() {
     setTimeout(() => {
         firstCard.classList.remove("turned");
