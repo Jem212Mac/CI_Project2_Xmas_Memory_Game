@@ -81,26 +81,13 @@ Xmas imagery is used throughout the site, with a choice of three background imag
 
 ![baubles](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/23b85e43-595a-48ec-89bc-e5f18711e14c)
 
-![snowman_1](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/0516b566-d7ee-4b14-b814-bd80af43fa05)
-
-![snowman_2](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/a414e70e-7c4b-48f9-a9ed-1ba13fad2b80)
-
-![snowman_3](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/b09c571d-2d0b-4c1e-b829-e380553ab95d)
-
-![snowman_4](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/10d74ff1-5352-455c-b02d-2554f1b04135)
-
-![snowman_5](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/dde9ad9a-07aa-42a0-a1d6-452635486e90)
-
-![snowman_6](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/1791dc21-c751-4e43-9cef-7d5da1281b79)
-
-
-
-
-
-
-
 
 ### Wireframes
+
+Software was not used to create a wireframe, but a wireframe design was drawn out before any coding was started, as shown below.  The wireframe design was changed a little as the project progressed, to allow for the inclusion of the christmas banner in the header, and more cards in the card area, but the structure remained basically the same.
+
+![wireframe](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/6421589e-725d-49fc-a994-1f065c6dbc3f)
+
 
 ## Features
 
