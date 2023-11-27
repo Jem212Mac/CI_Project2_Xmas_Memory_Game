@@ -6,7 +6,7 @@
 
 This is a xmas themed memory game created using html, css, and javascript.
 
-The purpose of the game is to test the player's memory while appealling to either kids or adult players that want to get into the xmas spirit; the game is designed with a xmas colour palette and xmas themed imagery.
+The purpose of the game is to test the player's memory, using a traditional memory card game, while appealling to either kids or adult players that want to get into the xmas spirit; the game is designed with a xmas colour palette and xmas themed imagery.
 
 ---
 
@@ -46,9 +46,9 @@ The purpose of the game is to test the player's memory while appealling to eithe
 
 ### User Stories
 
-As a user I want to play a game that will test my memory in a fun and interactive way.
+As a user, I want to play a game that will test my memory in a fun and interactive way.
 
-As a user, I want to play a game that delights me with a xmas theme, in the run up to xmas, using xmas imagery and colours.
+As a user, I want to play a game that delights me with a xmas theme, particularly in the run up to xmas, using xmas imagery and colours.
 
 As a user, I want the game to be intuitive to play, meaning that instructions are not necessary, but can be accessed if needed.
 
@@ -69,17 +69,36 @@ The colour scheme includes traditional xmas colours including red, white, silver
 
 ### Typography
 
-The christmas banner used in the header incorporates a scripted style of font which fits in well with a christmas themes.  All other text makes use of a google font (Open Sans) which is a sans-serif font which used by clear and legible to read.  This is important to provide information to the user to allow them to click appropriate buttons etc.
+The christmas banner used in the header incorporates a scripted style of font which fits in well with the christmas theme.  All other text makes use of a google font (Open Sans) which is a sans-serif font that is clear and easy to read.  This is important for modal's which provide information to the user and for buttons that may need to be clicked by the user.
 
 ### Imagery
 
-Xmas imagery is used throughout the site, with a choice of three background images consisting of a 3D wintery scene, a decorated xmas tree and blue trees background, and a blue background with xmas baubles, sparkles and snow.  Xmas themed images are used on the memory cards, including several images of snowmen and santa claus, a reindeer, a gingerbread man, a polar bear and a penguin.
+Xmas imagery is used throughout the site, with a choice of three background images consisting of a 3D wintery scene, a decorated blue xmas tree background, and a blue background with xmas baubles, sparkles and snow.  Xmas themed images are used on the memory cards, including several images of snowmen and santa claus, a reindeer, a gingerbread man, a polar bear and a penguin.
 
 ![3d-trees](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/8aef21f3-7af5-4f6f-898c-2554815372da)
 
 ![blue_background](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/bc56d568-e41b-4807-8ce3-a008dd29ff4a)
 
 ![baubles](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/23b85e43-595a-48ec-89bc-e5f18711e14c)
+
+![snowman_1](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/0516b566-d7ee-4b14-b814-bd80af43fa05)
+
+![snowman_2](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/a414e70e-7c4b-48f9-a9ed-1ba13fad2b80)
+
+![snowman_3](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/b09c571d-2d0b-4c1e-b829-e380553ab95d)
+
+![snowman_4](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/10d74ff1-5352-455c-b02d-2554f1b04135)
+
+![snowman_5](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/dde9ad9a-07aa-42a0-a1d6-452635486e90)
+
+![snowman_6](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/1791dc21-c751-4e43-9cef-7d5da1281b79)
+
+
+
+
+
+
+
 
 ### Wireframes
 
