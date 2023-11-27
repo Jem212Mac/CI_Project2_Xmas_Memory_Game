@@ -13,6 +13,9 @@
 
 ## AUTOMATED TESTING
 ### W3C HTML Validator
+HTML for the project was tested using the W3C HTML Validator and no errors were found>
+
+![html validation](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/3bf07b83-3689-4c0c-a1c9-f99c59eae0a2)
 
 ### Jigsaw CSS Validator
 CSS for the project was tested using the Jigsaw CSS Validator and no errors were found.
@@ -20,6 +23,7 @@ CSS for the project was tested using the Jigsaw CSS Validator and no errors were
 ![css validation](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/b2e84fdd-f94e-45c0-8fc0-08dee0b9dcbb)
 
 ### JSHint
+Javascript for the project was tested using JSHint and no errors were found.
 
 ### Lighthouse
 The performance, accessibility, best practices, and SEO of the site were tested using Lighthouse.
