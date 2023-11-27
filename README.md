@@ -1,6 +1,6 @@
 ![parchment](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/de169f2f-9969-4d99-a56c-249a1d48565f)
 
-![AmIResponsive](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/73e52ac8-a184-45ed-9380-940e941916fe)
+![AmIResponsive](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/6929b83b-2d83-4253-873c-cddcd6e5d7f2)
 
 # Xmas Memory Game
 
