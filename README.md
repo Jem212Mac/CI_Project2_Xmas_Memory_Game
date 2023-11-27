@@ -122,11 +122,9 @@ Details of the testing performed are included in the testing.md file.
 
 ## Credits
 ### Code Used
-
 Code for the shufflecards function was taken and adapted from https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array.
 
 ###  Media
 
 ###  Acknowledgments
-
 Templates for the readme.md and testing.md were based on ones created by Kera Cudmore at https://github.com/kera-cudmore/readme-examples.
