@@ -65,12 +65,6 @@ The christmas banner used in the header incorporates a scripted style of font wh
 ### Imagery
 Xmas imagery is used throughout the site, with a choice of three background images consisting of a 3D wintery scene, a decorated blue xmas tree background, and a blue background with xmas baubles, sparkles and snow.  Xmas themed images are used on the memory cards, including several images of snowmen and santa claus, a reindeer, a gingerbread man, a polar bear and a penguin.
 
-![3d-trees](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/8aef21f3-7af5-4f6f-898c-2554815372da)
-
-![blue_background](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/bc56d568-e41b-4807-8ce3-a008dd29ff4a)
-
-![baubles](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/23b85e43-595a-48ec-89bc-e5f18711e14c)
-
 ### Wireframes
 Software was not used to create a wireframe, but a wireframe design was drawn out before any coding was started, as shown below.  The wireframe design was changed a little as the project progressed, to allow for the inclusion of the christmas banner in the header, and more cards in the card area, but the structure remained basically the same.
 
@@ -87,10 +81,14 @@ The game consists of only one page which includes the following features:
 
 ![Game Rules Modal](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/d74f014d-b54b-4c30-bb7a-ccf845c4908d)
 
-2. The ability to change the background image using a set of three radio buttons.  The 'Winter Scene' is selected by default, but the background can be changed to any of the three available background using the radio buttons at anytime.
+2. The ability to change the background image using a set of three radio buttons (shown in screenshot above).  The 'Winter Scene' is selected by default, but the background can be changed to any of the three available background using the radio buttons at anytime.
 
+![3d-trees](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/8aef21f3-7af5-4f6f-898c-2554815372da)
 
-   
+![blue_background](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/bc56d568-e41b-4807-8ce3-a008dd29ff4a)
+
+![baubles](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/23b85e43-595a-48ec-89bc-e5f18711e14c)
+
 3. 
 
 ### Future Implementations
