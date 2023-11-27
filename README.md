@@ -110,9 +110,9 @@ Given additional time I would like to implement the following features:
 6. Add confetti using a javascript library to the celebration modal.
 
 ### Accessibility
-The accessibilty of the site was checked using Lighthouse:
-
-![Lighthouse_Report](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/51123828-3b4c-4a33-bfec-9299bc479bf3)
+1. All images include a text alternative so that ayone that cannot see the image can know what is displayed using a screen reader.
+2. Attention was paid to the contrast between the card backs and the background images.
+3. Attention was given to the colour contrast between call to action buttons and text on those buttons.
 
 
 ## Technologies Used
