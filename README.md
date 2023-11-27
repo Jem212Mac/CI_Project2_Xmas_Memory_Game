@@ -79,11 +79,24 @@ Software was not used to create a wireframe, but a wireframe design was drawn ou
 
 ## Features
 ### General features on each page
+The game consists of only one page which includes the following features:
+
+1. The ability to find out the game rules by clicking a 'Game Rules' button.  This brings up a modal popup that can then be closed using a close button.  The 'Game Rules' can be accessed via this button at any time.
+
+![Game Rules Button](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/2513e3c0-6d2d-4182-b791-f7486203407f)
+
+![Game Rules Modal](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/d74f014d-b54b-4c30-bb7a-ccf845c4908d)
+
+2. The ability to change the background image using a set of three radio buttons.  The 'Winter Scene' is selected by default, but the background can be changed to any of the three available background using the radio buttons at anytime.
+
+
+   
+3. 
 
 ### Future Implementations
 
 ### Accessibility
-The accessibilty of the site was tested using Lighthouse:
+The accessibilty of the site was checked using Lighthouse:
 
 ![Lighthouse_Report](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/51123828-3b4c-4a33-bfec-9299bc479bf3)
 
