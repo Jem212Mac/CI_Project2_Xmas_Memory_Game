@@ -25,6 +25,8 @@ CSS for the project was tested using the Jigsaw CSS Validator and no errors were
 ### JSHint
 Javascript for the project was tested using JSHint and no errors were found.
 
+![js validation](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/1941a28a-289f-454b-b0cd-0b5bb605a9ec)
+
 ### Lighthouse
 The performance, accessibility, best practices, and SEO of the site were tested using Lighthouse.
 
