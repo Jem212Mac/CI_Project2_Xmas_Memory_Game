@@ -69,6 +69,8 @@ The colour scheme includes traditional xmas colours including red, white, silver
 
 ### Typography
 
+The christmas banner used in the header incorporates a scripted style of font which fits in well with a christmas themes.  All other text makes use of a google font (Open Sans) which is a sans-serif font which used by clear and legible to read.  This is important to provide information to the user to allow them to click appropriate buttons etc.
+
 ### Imagery
 
 Xmas imagery is used throughout the site, with a choice of three background images consisting of a 3D wintery scene, a decorated xmas tree and blue trees background, and a blue background with xmas baubles, sparkles and snow.  Xmas themed images are used on the memory cards, including several images of snowmen and santa claus, a reindeer, a gingerbread man, a polar bear and a penguin.
@@ -78,8 +80,6 @@ Xmas imagery is used throughout the site, with a choice of three background imag
 ![blue_background](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/bc56d568-e41b-4807-8ce3-a008dd29ff4a)
 
 ![baubles](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/23b85e43-595a-48ec-89bc-e5f18711e14c)
-
-
 
 ### Wireframes
 
