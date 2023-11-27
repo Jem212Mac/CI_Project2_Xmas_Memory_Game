@@ -13,7 +13,7 @@
 
 ## AUTOMATED TESTING
 ### W3C HTML Validator
-HTML for the project was tested using the W3C HTML Validator and no errors were found>
+HTML for the project was tested using the W3C HTML Validator and no errors were found.
 
 ![html validation](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/3bf07b83-3689-4c0c-a1c9-f99c59eae0a2)
 
