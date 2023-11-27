@@ -113,8 +113,11 @@ Code for the shufflecards function was taken and adapted from https://stackoverf
 
 ### Acknowledgments
 Templates for the readme.md and testing.md were based on ones created by Kera Cudmore at https://github.com/kera-cudmore/readme-examples.
+
 The following tutorials were viewed in order to learn how to create a modal, and how to create sound effects for the card flips:
+
 https://www.youtube.com/watch?app=desktop&v=XH5OW46yO8I
+
 https://www.youtube.com/watch?v=VlwSz2dXK_8
 
 
