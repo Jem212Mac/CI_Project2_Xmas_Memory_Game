@@ -35,6 +35,8 @@ The performance, accessibility, best practices, and SEO of the site were tested 
 
 ## MANUAL TESTING
 ### Feature Testing
+1. The game rules button was tested to ensure that it displayed the appropriate popup, that the content of the popup was as expected, and that the layout of the modal and close buttons were correct.  The background area was checked while the modal was displayed to ensure the the background was darker and that the cards and buttons in the background were not able to be selected.
+2. 
 
 ### Browser Testing
 
