@@ -57,9 +57,9 @@ It was noticed while testing that if the user clicks on the second card too quic
 
 ### Solved Bugs
 1. When the shuffle cards function was first created it did not work and the cards were not being shuffled.  I searched online and found the Fisher-Yates shuffle algorithm on stack overflow and I adapted this to my code and managed to resolve the issue.
-2. When the array for the card images was first created the card images were not displaying.  This was due to not using the correct file path.  I changed the code to used the relative filepaths and the issue was resolved.
+2. When the array for the card images was first created the card images were not displaying.  This was due to not using the correct file path.  I changed the code to use the relative filepaths and the issue was resolved.
 3. Initially the card back images were not displaying.  I needed to change some background image settings to resolve this.
 4. I completely broke the display on my page when I made changes to how I structured and named the two modals for my project.  I had to go back to an earlier version of my code in GitHub and copy the old code and copy it back into my IDE since I was not sure how to revert back to an earlier version of code with GitHub.
-5. The text on the close button for the celebration modal was misaligned since I had commented out somecode for the width and I forgot to uncomment it.  I removed the comments and the issue was resolved.
+5. The text on the close button for the celebration modal was misaligned since I had commented out some code for the width and I forgot to uncomment it.  I removed the comments and the issue was resolved.
 6. The xmas tree favicon I had included was not showing up initially.  I changed the filepaths for the favicon images and this was resolved.
 7. The HTML validator revealed that I had a duplicate ID in my html code.  I realised I was not using this ID so I reomved it completely and the issue was resolved.
