@@ -73,7 +73,8 @@ The colour scheme includes traditional xmas colours including red, white, silver
 
 Xmas imagery is used throughout the site, with a choice of three background images consisting of a 3D wintery scene, a decorated xmas tree and blue trees background, and a blue background with xmas baubles, sparkles and snow.  Xmas themed images are used on the memory cards, including several images of snowmen and santa claus, a reindeer, a gingerbread man, a polar bear and a penguin.
 
-![3d-trees](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/5c5b89d7-2dce-4fd7-9f3a-15eee25a3c83)
+![3d-trees](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/8aef21f3-7af5-4f6f-898c-2554815372da)
+
 
 
 ### Wireframes
