@@ -67,7 +67,7 @@ The colour scheme includes traditional xmas colours including green, red, black,
 
 ### Imagery
 
-Xmas imagery is used throughout the site, with a decorated xmas tree background image and xmas themed clipart that might appeal to children used on the memory cards.  Xmas themed images include santa claus, a snowman, a xmas tree, rudolph the red-nosed reindeer, an elf, a gingerbread man, santa's sleigh, and a xmas stocking filled with gifts.
+Xmas imagery is used throughout the site, with a choice of three background images consisting of a 3D wintery scene, a decorated xmas tree and blue trees background, and a blue background with xmas baubles, sparkles and snow.  Xmas themed images are used on the memory cards, including several images of snowmen and santa claus, a reindeer, a gingerbread man, a polar bear and a penguin.
 
 ### Wireframes
 
