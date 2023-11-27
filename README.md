@@ -101,31 +101,36 @@ Software was not used to create a wireframe, but a wireframe design was drawn ou
 
 ### Languages Used
 
+The game was created using html5, css3 and vanilla javascript.
+
 ### Frameworks, Libraries & Programs Used
+
+No frameworks, libraries or programs were used.
 
 ## Deployment & Local Development
 
 ### Deployment
 
+The game was deployed using GitHub Actions.
+
 ### Local Development
 
-#### How to Fork
-
-#### How to Clone
+Codeanywhere was used as the IDE for local development of the game and GitHub was used for version control.
 
 ## Testing
+
+Details of the testing performed are included in the testing.md file.
 
 ## Credits
 
 Templates for the readme.md and testing.md were based on ones created by Kera Cudmore at https://github.com/kera-cudmore/readme-examples.
 
-The decorated xmas tree background was taken from https://www.pexels.com/.
-
-The xmas clip art images for the memory cards were taken from <https://northpolechristmas.com/Christmas-clipart.html>.
-
-Images were converted to webp format using https://convertio.co/.
-
 ### Code Used
+
+Code for the shufflecards function was taken and adapted from the following stack overflow site:
+
+https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+
 
 ### Content
 
