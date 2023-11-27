@@ -1,3 +1,6 @@
+
+![parchment](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/de169f2f-9969-4d99-a56c-249a1d48565f)
+
 # Xmas Memory Game
 
 This is a xmas themed memory game created using html, css, and javascript.
