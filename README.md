@@ -75,6 +75,10 @@ Xmas imagery is used throughout the site, with a choice of three background imag
 
 ![3d-trees](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/8aef21f3-7af5-4f6f-898c-2554815372da)
 
+![blue_background](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/bc56d568-e41b-4807-8ce3-a008dd29ff4a)
+
+![baubles](https://github.com/Jem212Mac/CI_Project_2_Xmas_Memory_Game/assets/89839563/23b85e43-595a-48ec-89bc-e5f18711e14c)
+
 
 
 ### Wireframes
