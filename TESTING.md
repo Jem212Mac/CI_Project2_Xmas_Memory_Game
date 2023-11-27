@@ -12,7 +12,6 @@
 ---
 
 ## AUTOMATED TESTING
-
 ### W3C HTML Validator
 
 ### Jigsaw CSS Validator
@@ -29,13 +28,15 @@ The performance, accessibility, best practices, and SEO of the site were tested 
 
 
 ## MANUAL TESTING
+### Feature Testing
 
-### Testing User Stories
+### Browser Testing
 
-### Full Testing
+### Device Testing
+
 
 ## BUGS
-
 ### Known Bugs
+There are no known bugs with the site.
 
 ### Solved Bugs
