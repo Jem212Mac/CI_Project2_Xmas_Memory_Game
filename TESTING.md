@@ -36,14 +36,16 @@ The performance, accessibility, best practices, and SEO of the site were tested 
 ## MANUAL TESTING
 ### Feature Testing
 1. The game rules button was tested to ensure that it displayed the appropriate popup, that the content of the popup was as expected, and that the layout of the modal and close buttons were correct.  The background area was checked while the modal was displayed to ensure that the background was darker and that the cards and buttons in the background were not able to be selected.
-2. The clicking of cards were tested to ensure that the appropriate sound effect played when cards were selected.
-3. The game was tested to ensure that unmatched card pairs flipped back over to show the card back image again, and that the user could try to match a new set of cards.
-4. The game was tested to ensure that matched card pairs stayed with the front image displayed and were disabled.
-5. The game was tested to ensure that for every pair of cards uncovered, the no of moves incremented by 1.
-6. The game was tested to ensure that when all card pairs had been matched, a celebration modal appeared, and a cheering sound effect was played.  The content of the celebration modal was checked to ensure it was correct and that the layout was correct.
-7. The restart button was tested to ensure that when it was clicked the game restarted from scratch, the no. of moves reset to zero and all cards flipped back to show the card back image.
-8. The background selection was tested to ensure that the winter scene was selected by default when the site was loaded and that the background image successfuly changed to the appropriaye image when a different radio button was selected.
-9. Testing was performed to check that the appropriate favicon image was displayed.
+2. The close button on the game rules modal was tested to make sure it worked.
+3. The clicking of cards were tested to ensure that the appropriate sound effect played when cards were selected.
+4. The game was tested to ensure that unmatched card pairs flipped back over to show the card back image again, and that the user could try to match a new set of cards.
+5. The game was tested to ensure that matched card pairs stayed with the front image displayed and were disabled.
+6. The game was tested to ensure that for every pair of cards uncovered, the no of moves incremented by 1.
+7. The game was tested to ensure that when all card pairs had been matched, a celebration modal appeared, and a cheering sound effect was played.  The content of the celebration modal was checked to ensure it was correct and that the layout was correct.
+8. The close button on the celebration modal was tested to make sure it worked.
+9. The restart button was tested to ensure that when it was clicked the game restarted from scratch, the no. of moves reset to zero and all cards flipped back to show the card back image.
+10. The background selection was tested to ensure that the winter scene was selected by default when the site was loaded and that the background image successfuly changed to the appropriaye image when a different radio button was selected.
+11. Testing was performed to check that the appropriate favicon image was displayed.
 
 ### Browser Testing
 All of the above features were tested with google chrome and safari.
