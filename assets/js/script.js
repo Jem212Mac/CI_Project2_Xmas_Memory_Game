@@ -5,9 +5,9 @@ let firstCard, secondCard;
 let lockGame = false;
 let score = 0;
 let matchCounter = 0;
-
 const sfxFlip = document.getElementById('sfx-flip');
 const sfxCheer = document.getElementById('sfx-cheer');
+let radioBtns = document.querySelectorAll('input[name="background"]');
 
 document.querySelector(".score").textContent = score;
 
@@ -41,6 +41,7 @@ cards = [
 shuffleCards();
 createCards();
 
+/* Based on Fisher-Yates shuffle algorithm obtained from stack overflow site */
 function shuffleCards() {
     let currentIndex = cards.length, randomIndex;
     while (currentIndex > 0) {
@@ -53,6 +54,7 @@ function shuffleCards() {
     return cards;
 }
 
+/* Function to setup or create shuffled card on html page */
 function createCards() {
     for (let card of cards) {
         const cardElement = document.createElement("div");
@@ -69,6 +71,7 @@ function createCards() {
     }
 }
 
+/* Function to flip first and second cards and check for a match */
 function turnCard() {
     if (lockGame) return;
     if (this === firstCard) return;
@@ -88,11 +91,13 @@ function turnCard() {
     checkForMatch();
 }
 
+/* Function to check if first and second cards match */
 function checkForMatch() {
     let isThereMatch = firstCard.dataset.name === secondCard.dataset.name;
     isThereMatch ? disableCards() : turnBackCards();
 }
 
+/* Function to disable the cards if they match and to display celebration modal and play sfx if it is the last two cards that are matched */
 function disableCards() {
     firstCard.removeEventListener("click", turnCard);
     secondCard.removeEventListener("click", turnCard);
@@ -104,6 +109,8 @@ function disableCards() {
     }
     resetGame();
 }
+
+/* Functions to flip cards back and reset the game if the cards do not match */
 function turnBackCards() {
     setTimeout(() => {
         firstCard.classList.remove("turned");
@@ -116,6 +123,8 @@ function resetGame() {
     secondCard = null;
     lockGame = false;
 }
+
+/* Function to restart the entire game */
 function restart() {
     resetGame();
     shuffleCards();
@@ -125,7 +134,8 @@ function restart() {
     cardArea.innerHTML = "";
     createCards();
 }
-let radioBtns = document.querySelectorAll('input[name="background"]');
+
+/* Function to allow background selection using radio buttons */
 function findSelected() {
     let selected = document.querySelector('input[name="background"]:checked').value;
     document.body.classList = [`${selected}`];
@@ -135,14 +145,17 @@ radioBtns.forEach(radioBtn => {
 });
 findSelected();
 
+/* Function to open game rules modal if button clicked */
 function openModal() {
     modal_container.classList.add('show');
 }
 
+/* Function to close game rules modal */
 function closeModal() {
     modal_container.classList.remove('show');
 }
 
+/* Function to close celebration modal */
 function closeCelebration() {
     modal_celebration.classList.remove('show');
 }
