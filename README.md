@@ -126,7 +126,7 @@ No frameworks, libraries or programs were used.
 
 ## Deployment & Local Development
 ### Deployment
-The game was deployed to https://jem212mac.github.io/CI_Project_2_Xmas_Memory_Game/ using GitHub Actions.
+The game was deployed to https://jem212mac.github.io/xmas-memory-game/ using GitHub Actions.
 
 ### Local Development
 Codeanywhere was used as the IDE for local development of the game and GitHub was used for version control.
